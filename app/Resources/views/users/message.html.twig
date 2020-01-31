@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    {% for msg in app.session.flashbag.get('message')  %}
+        <div class="alert alert-success" id="info">
+            {{ msg }}
+        </div>
+    {% endfor %}
+
+    <h3>Имейл: {{ user.email }}.</h3>
+
+    <div><img class="rounded-circle" src=" {{ asset('uploads/images/users/'  ~ user.image ) }}"
+              width="200px" height="100px" /></div>
+
+    {% if app.getUser() %}
+        <br />
+        <a class="btn btn-success btn-lg" id="Add">Напиши съобщение на {{ user.fullName }}</a> <br /> <br />
+        <div id="message"></div>
+    {% endif %}
+
+    <script>
+        $('#Add').click(function () {
+            $('#message').empty();
+            let messageForm =
+                `
+                <form method="post" action="{{ path('message_create', { id: user.id}) }}">
+                <div class="form-group">
+                        <div class="col-sm-6">
+                        Тема: <br /> <input class="form-control" type="text" name="message[about]" /> <br />
+                        Съдържание: <br /> <textarea class="form-control" rows="6" id="message_content" name="message[content]"></textarea> <br />
+                        <input type="submit" value="Изпрати" class="btn btn-success btn-sm" />
+                        </div>
+                    </div>
+                </form>
+                `;
+
+            $('#message').append(messageForm);
+            $('#message').toggle();
+        })
+    </script>
+
+{% endblock %}

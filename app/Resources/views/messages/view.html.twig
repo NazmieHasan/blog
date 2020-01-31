@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    {% for msg in app.session.flashbag.get('message')  %}
+        <div class="alert alert-success" id="info">
+            {{ msg }}
+        </div>
+    {% endfor %}
+
+    <h3>Тема: {{ msg.about }}</h3>
+    <p>Съдържание: {{ msg.content }}</p>
+    <small>Изпратено от: {{ msg.sender.fullName }}</small><br />
+    <small>Дата: {{ msg.dateAdded|date("Y-m-d H:i:s")}}</small>
+    <br />
+
+    {% if app.getUser() %}
+        <br />
+        <a class="btn btn-success btn-sm" id="Add">Изпрати съобщение</a> <br /> <br />
+        <div id="message"></div>
+    {% endif %}
+
+    <script>
+        $('#Add').click(function () {
+            $('#message').empty();
+            let messageForm =
+                `
+                <form method="post" action="{{ path('user_mailbox_sent_message', { id: msg.sender.id }) }}">
+                <div class="form-group">
+                        <div class="col-sm-6">
+                        Тема: <br /> <input class="form-control" type="text" name="message[about]" /> <br />
+                        Съдържание: <br /> <textarea class="form-control" rows="6" id="message_content" name="message[content]"></textarea> <br />
+                        <input type="submit" value="Изпрати" class="btn btn-success btn-sm" />
+                        <input type="hidden" name="msgId" value="{{ msg.id }}" />
+                        </div>
+                    </div>
+                </form>
+                `;
+
+            $('#message').append(messageForm);
+            $('#message').toggle();
+        })
+    </script>
+
+
+
+
+
+
+{% endblock %}

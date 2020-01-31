@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal" enctype="multipart/form-data" action="{{ path('user_edit_profile') }}" method="post">
+                <fieldset>
+                    <legend>Редактиране на профила</legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_email">Имейл</label>
+                        <div class="col-sm-4">
+                            <input class="form-control" id="user_email" placeholder="Имейл" name="user[email]" value="{{ user.email }}" required type="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_fullName">Име</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="user_fullName" placeholder="Име" value="{{ user.fullName }}" name="user[fullName]" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <div id="changePass" class="btn btn-danger btn-sm">Промени паролата</div>
+                    </div>
+                    </div>
+
+                    <div id="pass"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_image">Качи снимка</label>
+                        <div class="col-sm-4">
+                            <input accept=".jpg, .jpeg, .png" type="file" class="form-control" id="user_image" placeholder="Качи снимка" name="user[image]">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a class="btn btn-default" href="{{ path('user_profile') }}">Отмени</a>
+                            <button type="submit" class="btn btn-primary">Изпрати</button>
+                        </div>
+                    </div>
+
+                    {{  form_row(form._token) }}
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $('#changePass').click(function () {
+            $('#pass').empty();
+
+            let form =
+                `
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_password_first">Парола</label>
+                        <div class="col-sm-4">
+                        <input type="password" class="form-control" id="user_password_first" placeholder="Парола" name="user[password][first]">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_password_second">Повтори паролата</label>
+                        <div class="col-sm-4">
+                        <input type="password" class="form-control" id="user_password_second" placeholder="Повтори паролата" name="user[password][second]">
+                        </div>
+                    </div>
+                `;
+
+            $('#pass').append(form);
+            $('#pass').toggle();
+        })
+    </script>
+
+{% endblock %}
