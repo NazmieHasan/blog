@@ -103,7 +103,7 @@ class MessageController extends Controller
         $senderId = $id;
         $this->messageService->create($message, $senderId);
 
-        $this->addFlash("message", "Message sent successfully!");
+        $this->addFlash("message", "Съобщението е изпратено успешно!");
         return $this->redirectToRoute('user_mailbox_message',
             [
                 'id' => intval($messageId),

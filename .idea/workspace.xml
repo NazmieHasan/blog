@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="" />
+    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/09fa494b1663a032416a3f8d7a829d9f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/6d3ac59415be243132a264de29618060.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/8d0df28b028c7b92157a10f4d96b736c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/d7ae2a50bb496a302798e232f98e13bf.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/MessageController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +38,22 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -207,21 +230,46 @@
       <workItem from="1580284576869" duration="2258000" />
       <workItem from="1580453258399" duration="308000" />
       <workItem from="1580453632111" duration="1112000" />
+      <workItem from="1580462382196" duration="217000" />
+      <workItem from="1580629189059" duration="2259000" />
+      <workItem from="1580883591292" duration="6000" />
+      <workItem from="1580884826584" duration="787000" />
+      <workItem from="1581071804936" duration="215000" />
+      <workItem from="1581349942009" duration="693000" />
+      <workItem from="1581489812743" duration="201000" />
+      <workItem from="1581602221859" duration="460000" />
+      <workItem from="1582529312761" duration="1438000" />
+      <workItem from="1583223497251" duration="2660000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Notifications" timestamp="1583227462537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1583227462537" />
     <state x="543" y="0" key="#PHP" timestamp="1576739103098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="543" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1576739103098" />
-    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576739107283">
+    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581350217732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576739107283" />
+    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581350217732" />
     <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580453568638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,10 +294,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1577348266322" />
-    <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1579719820797">
+    <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="600" y="124" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579719820797" />
+    <state x="600" y="124" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581490015251" />
     <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1576749079076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,10 +314,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576749079076" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580284590613">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1581602678125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1580284590613" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1581602678125" />
     <state x="263" y="100" key="IDE.errors.dialog" timestamp="1577175727637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -286,14 +334,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="576" y="255" width="319" height="227" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1577342085236" />
+    <state x="263" y="20" key="com.intellij.database.dbimport.ImportDialog" timestamp="1580629866509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="20" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1580629866509" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576930321693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1576930321693" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1580453636482">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583223497334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580453636482" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583223497334" />
     <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577865415685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
