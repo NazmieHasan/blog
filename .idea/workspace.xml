@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="commit">
+    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +234,7 @@
       <workItem from="1582529312761" duration="1438000" />
       <workItem from="1583223497251" duration="3544000" />
       <workItem from="1583392870657" duration="11194000" />
-      <workItem from="1583420890165" duration="522000" />
+      <workItem from="1583420890165" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1583230655855</created>
@@ -246,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583230655855</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1583421443131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583421443131</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1583421595466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583421595466</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,10 +317,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1577348266322" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583421438428">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583421841181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583421438428" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583421841181" />
     <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
