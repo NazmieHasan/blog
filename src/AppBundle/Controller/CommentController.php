@@ -58,7 +58,10 @@ class CommentController extends Controller
         $this->addFlash("message", "Коментарът е записан успешно!");
         $this->commentService->create($comment, $id);
 
-            return $this->redirectToRoute("article_view", ['id' => $id]);
+            return $this->redirectToRoute("article_view",
+                [
+                    'id' => $id
+                ]);
     }
 
 

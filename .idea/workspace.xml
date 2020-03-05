@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/09fa494b1663a032416a3f8d7a829d9f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/6d3ac59415be243132a264de29618060.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/8d0df28b028c7b92157a10f4d96b736c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/d7ae2a50bb496a302798e232f98e13bf.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a.xml" afterDir="false" />
+    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/MessageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,8 +235,18 @@
       <workItem from="1581489812743" duration="201000" />
       <workItem from="1581602221859" duration="460000" />
       <workItem from="1582529312761" duration="1438000" />
-      <workItem from="1583223497251" duration="2660000" />
+      <workItem from="1583223497251" duration="3544000" />
+      <workItem from="1583392870657" duration="11194000" />
+      <workItem from="1583420890165" duration="522000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1583230655855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583230655855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,11 +257,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Notifications" timestamp="1583227462537">
@@ -294,6 +306,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1577348266322" />
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583421413693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583421413693" />
     <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -330,6 +346,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576832625812" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583231179252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583231179252" />
     <state x="576" y="255" width="319" height="227" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577342085236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,10 +362,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1576930321693" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583223497334">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583420886768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583223497334" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583420886768" />
     <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577865415685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
