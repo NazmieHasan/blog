@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="">
+    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/NazmieHasan/blog.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -234,7 +241,7 @@
       <workItem from="1582529312761" duration="1438000" />
       <workItem from="1583223497251" duration="3544000" />
       <workItem from="1583392870657" duration="11194000" />
-      <workItem from="1583420890165" duration="758000" />
+      <workItem from="1583420890165" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1583230655855</created>
@@ -257,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583421595466</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1583421859933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583421859933</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,10 +331,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1577348266322" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583421841181">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583422060502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583421841181" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583422060502" />
+    <state x="129" y="53" key="DiffContextDialog" timestamp="1583422038610">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1583422038610" />
     <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -353,6 +371,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="197" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1577778528446" />
+    <state x="532" y="76" key="RollbackChangesDialog" timestamp="1583422054267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="532" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583422054267" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1576832625812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
