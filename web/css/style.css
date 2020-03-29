@@ -1134,7 +1134,7 @@ a {
 a:hover,
 a:focus {
   color: #18bc9c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -7057,5 +7057,6 @@ article .author  {
   content: '\2014 \00A0';
 }
 h2 {
+  color: #18bc9c;
   background-color: #ecf0f1;
 }
