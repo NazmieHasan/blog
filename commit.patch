@@ -1,0 +1,103 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1585478882195)
++++ .idea/.gitignore	(date 1585478882195)
+@@ -0,0 +1,2 @@
++# Datasource local storage ignored files
++/dataSources/
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 15af46eea68b1bc85da1601bc1d70fa0f1978436)
++++ .idea/workspace.xml	(date 1585479212475)
+@@ -2,10 +2,8 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -44,6 +42,13 @@
+     <option name="hiddenUrls">
+       <set>
+         <option value="https://github.com/NazmieHasan/blog.git" />
++      </set>
++    </option>
++  </component>
++  <component name="IgnoredFileRootStore">
++    <option name="generatedRoots">
++      <set>
++        <option value="C:\xampp\htdocs\blog\.idea" />
+       </set>
+     </option>
+   </component>
+@@ -125,6 +130,7 @@
+   <component name="PropertiesComponent">
+     <property name="DatabaseDriversLRU" value="mysql" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="node.js.detected.package.eslint" value="true" />
+@@ -239,6 +245,7 @@
+       <workItem from="1584979433049" duration="587000" />
+       <workItem from="1585240249567" duration="2297000" />
+       <workItem from="1585465804492" duration="1818000" />
++      <workItem from="1585478873563" duration="230000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit">
+       <created>1583230655855</created>
+@@ -338,14 +345,14 @@
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1577348266322" />
+-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583424125922">
++    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585479188708">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583424125922" />
+-    <state x="129" y="53" key="DiffContextDialog" timestamp="1583422038610">
++    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585479188708" />
++    <state x="129" y="53" key="DiffContextDialog" timestamp="1585479163463">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="129" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1583422038610" />
++    <state x="129" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1585479163463" />
+     <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+@@ -366,10 +373,6 @@
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="532" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583422054267" />
+-    <state x="186" y="0" key="SettingsEditor" timestamp="1576832625812">
+-      <screen x="0" y="0" width="1366" height="728" />
+-    </state>
+-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576832625812" />
+     <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583231179252">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+@@ -386,10 +389,10 @@
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1576930321693" />
+-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1585465991337">
++    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1585478876268">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585465991337" />
++    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585478876268" />
+     <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577865415685">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>

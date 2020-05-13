@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="">
+    <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="commit 29-03-2020">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commit.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/426963b61bf0a6cf32048d99cc91d274.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/users/2b295744b1b81145b9a8aa34cb0ef463.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/users/98587b7d23161c27524b2d0e3fbf0360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/uploads/images/users/cc183ba501e044d14d839fe7b28fd017.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,13 @@
     <option name="hiddenUrls">
       <set>
         <option value="https://github.com/NazmieHasan/blog.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\xampp\htdocs\blog\.idea" />
       </set>
     </option>
   </component>
@@ -117,16 +130,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1VBsJTGOlKLDZUEqAGWw0sBNHzz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -136,6 +154,9 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\blog\web\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\blog\web\defaults\images\articles" />
       <recent name="C:\xampp\htdocs\blog\web\defaults\images\users" />
@@ -239,6 +260,11 @@
       <workItem from="1584979433049" duration="587000" />
       <workItem from="1585240249567" duration="2297000" />
       <workItem from="1585465804492" duration="1818000" />
+      <workItem from="1585478873563" duration="3441000" />
+      <workItem from="1585552430936" duration="1525000" />
+      <workItem from="1585554070029" duration="872000" />
+      <workItem from="1585555236636" duration="146000" />
+      <workItem from="1589339724799" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1583230655855</created>
@@ -282,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583424131250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1585479236333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585479236333</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,8 +335,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit 29-03-2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 29-03-2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Notifications" timestamp="1583227462537">
@@ -314,38 +349,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581350217732" />
-    <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580453568638">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585481838364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1580453568638" />
-    <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577341112737">
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585481838364" />
+    <state width="343" height="442" key="Diff.GoToChangePopup" timestamp="1585481802737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1577341112737" />
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577106006471">
+    <state width="343" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1585481802737" />
+    <state x="129" y="53" key="DiffContextDialog" timestamp="1585481815597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577106006471" />
-    <state x="413" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577360093770">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577360093770" />
-    <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1577194006261">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.0.1366.728@0.0.1366.728" timestamp="1577194006261" />
-    <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1577348266322">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="424" y="0" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1577348266322" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583424125922">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583424125922" />
-    <state x="129" y="53" key="DiffContextDialog" timestamp="1583422038610">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="129" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1583422038610" />
+    <state x="129" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1585481815597" />
     <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -354,53 +369,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1581602678125" />
-    <state x="263" y="100" key="IDE.errors.dialog" timestamp="1577175727637">
+    <state x="518" y="294" key="NewPhpFileDialog" timestamp="1585479711236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="100" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1577175727637" />
-    <state x="439" y="197" key="NewPhpClassDialog" timestamp="1577778528446">
+    <state x="518" y="294" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1585479711221" />
+    <state x="532" y="76" key="RollbackChangesDialog" timestamp="1585553084581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="439" y="197" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1577778528446" />
-    <state x="532" y="76" key="RollbackChangesDialog" timestamp="1583422054267">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="532" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583422054267" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1576832625812">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576832625812" />
+    <state x="532" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585553084581" />
     <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583231179252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583231179252" />
-    <state x="576" y="255" width="319" height="227" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577342085236">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1589339757116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="576" y="255" width="319" height="227" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1577342085236" />
-    <state x="263" y="20" key="com.intellij.database.dbimport.ImportDialog" timestamp="1580629866509">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589339757116" />
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585481632627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="20" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1580629866509" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576930321693">
+    <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585481632627" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1585481495363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1576930321693" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1585465991337">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585465991337" />
-    <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577865415685">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="337" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1577865415685" />
-    <state x="339" y="157" key="run.anything.popup" timestamp="1577863482757">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577863482757" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577976140464">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577976140464" />
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585481495363" />
   </component>
 </project>
