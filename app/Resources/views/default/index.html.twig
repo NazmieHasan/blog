@@ -15,6 +15,9 @@
             {% for msg in app.session.flashbag.get('errors')  %}
                 <div class="alert alert-danger">
                     {{ msg }}
+                    <button type="button" class="close" data-dissmis="alert" aria-label="Close">
+                        <span aria-hidden="true">x</span>
+                    </button>
                 </div>
             {% endfor %}
 

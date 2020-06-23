@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5daa857-c485-47ac-ba02-b4e0d1fea033" name="Default Changelist" comment="commit 29-03-2020">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commit.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/articles/426963b61bf0a6cf32048d99cc91d274.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/users/2b295744b1b81145b9a8aa34cb0ef463.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/users/98587b7d23161c27524b2d0e3fbf0360.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/uploads/images/users/cc183ba501e044d14d839fe7b28fd017.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +16,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -50,13 +44,6 @@
     <option name="hiddenUrls">
       <set>
         <option value="https://github.com/NazmieHasan/blog.git" />
-      </set>
-    </option>
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\xampp\htdocs\blog\.idea" />
       </set>
     </option>
   </component>
@@ -135,22 +122,23 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -168,18 +156,6 @@
     <configuration name="Server" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/console" scriptParameters="server:run">
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -265,6 +241,11 @@
       <workItem from="1585554070029" duration="872000" />
       <workItem from="1585555236636" duration="146000" />
       <workItem from="1589339724799" duration="788000" />
+      <workItem from="1592891751362" duration="88000" />
+      <workItem from="1592892163104" duration="252000" />
+      <workItem from="1592892616697" duration="14000" />
+      <workItem from="1592894026388" duration="588000" />
+      <workItem from="1592894767384" duration="1334000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1583230655855</created>
@@ -319,20 +300,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -341,14 +321,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit 29-03-2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="24" key="#Notifications" timestamp="1583227462537">
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592892370347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="24" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1583227462537" />
-    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581350217732">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581350217732" />
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1592892370347" />
     <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1585481838364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -361,14 +337,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1585481815597" />
-    <state x="600" y="124" key="FileChooserDialogImpl" timestamp="1581490015251">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="600" y="124" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581490015251" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1581602678125">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1581602678125" />
     <state x="518" y="294" key="NewPhpFileDialog" timestamp="1585479711236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -377,14 +345,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="532" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585553084581" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583231179252">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592892621357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583231179252" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1589339757116">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589339757116" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592892621357" />
     <state x="494" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585481632627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
