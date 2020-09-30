@@ -1,8 +1,0 @@
-app_rest_api:
-    resource: "@AppRestApiBundle/Controller/"
-    type:     annotation
-    prefix:   /api
-
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation

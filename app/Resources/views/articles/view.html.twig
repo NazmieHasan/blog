@@ -20,7 +20,7 @@
             <div class="col-md-12">
                 <article>
                     <header>
-                        <h2><a href="{{ path('article_view', { id: article.id } ) }}">{{ article.title }}</a></h2>
+                        <h2>{{ article.title }}</h2>
                     </header>
                     <a href="{{ path('article_view', { id: article.id } ) }}">
                         <img src="{{ asset('uploads/images/articles/' ~ article.image)}}" width="400px" height="200px" />
@@ -31,11 +31,8 @@
                     </p>
 
                     <small class="author">
-                        {{ article.author.fullName }}|<a href="{{ path('user_message', { id: article.author.id } ) }}">
-                            <img alt="None" class="rounded-circle"
-                                 src=" {{ asset('uploads/images/users/'  ~ article.author.image ) }}"
-                                 width="30px" height="10px" /></a>
-                    </small><br />
+                        {{ article.author.fullName }}
+                    </small>
 
                     <footer>
                         <div class="pull-right">
@@ -62,7 +59,7 @@
                     <br />
                     {{ comment.author.fullName }} |
                     <a href="{{ path('user_message', { id: comment.author.id } ) }}">
-                        <img alt="None" class="rounded-circle" src=" {{ asset('uploads/images/users/'  ~ comment.author.image ) }}" width="30px" height="10px" />
+                    <img alt="None" class="rounded-circle" src=" {{ asset('uploads/images/users/'  ~ comment.author.image ) }}" width="30px" height="10px" />
                     </a>
                     <br />
                     <small>{{ comment.dateAdded|date("Y-m-d H:i:s") }}</small>
@@ -88,9 +85,11 @@
                     </div>
                 </form>
                 `;
+
             $('#comment').append(commentForm);
             $('#comment').toggle();
         })
     </script>
 
 {% endblock %}
+

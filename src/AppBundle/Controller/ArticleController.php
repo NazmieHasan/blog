@@ -52,11 +52,9 @@ class ArticleController extends Controller
     {
 
         return $this->render('articles/create.html.twig',
-            [
-                'form' => $this
+            ['form' => $this
                 ->createForm(ArticleType::class)
-                ->createView()
-            ]);
+                ->createView()]);
 
     }
 
@@ -82,6 +80,7 @@ class ArticleController extends Controller
 
     /**
      * @Route("/edit/{id}", name="article_edit", methods={"GET"})
+     *
      * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
      * @param $id
      * @return \Symfony\Component\HttpFoundation\Response
@@ -232,10 +231,12 @@ class ArticleController extends Controller
 
         $articles = $this->articleService->getAllArticlesByAuthor();
 
-        return $this->render("articles/myArticles.html.twig",
+        return $this->render(
+            "articles/myArticles.html.twig",
             [
                 'articles' => $articles
-            ]);
+            ]
+        );
 
     }
 
@@ -258,5 +259,6 @@ class ArticleController extends Controller
             $article->setImage($fileName);
         }
     }
+
 
 }

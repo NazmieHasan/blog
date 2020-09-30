@@ -1,1 +1,4 @@
-PHP / Symfony, JavaScript, Bootstrap, jQuery
+.checkout
+=========
+
+A Symfony project created on December 19, 2019, 8:44 am.

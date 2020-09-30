@@ -2,12 +2,12 @@
 
 {% block main %}
 
-    <a class="btn btn-success" href="{{ path('admin_articles')}}">ВИЖ ВСИЧКИ ОБЯВИ</a>
+    <a class="btn btn-success" href="{{ path('admin_articles')}}">Всички обяви</a>
 
     <h1>Всички потребители:</h1>
 
     {% for user in users %}
-        <p><a href="{{ path('user_message', { id: user.id }) }}">{{ user.email}}</a></p>
+        <p><a href="#">{{ user.username}}</a></p>
     {% endfor %}
 
 {% endblock %}

@@ -3,58 +3,58 @@
 {% block body %}
 
     <div class="container body-content">
-        <div class="row">
+    <div class="row">
 
-            {% for msg in app.session.flashbag.get('info')  %}
-                <div class="alert alert-success" id="info">
-                    {{ msg }}
-                </div>
-            {% endfor %}
+        {% for msg in app.session.flashbag.get('info')  %}
+            <div class="alert alert-success" id="info">
+            {{ msg }}
+            </div>
+        {% endfor %}
 
 
-            {% for msg in app.session.flashbag.get('errors')  %}
-                <div class="alert alert-danger">
-                    {{ msg }}
-                    <button type="button" class="close" data-dissmis="alert" aria-label="Close">
-                        <span aria-hidden="true">x</span>
-                    </button>
-                </div>
-            {% endfor %}
+        {% for msg in app.session.flashbag.get('errors')  %}
+            <div class="alert alert-danger">
+                {{ msg }}
+                <button type="button" class="close" data-dissmis="alert" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+        {% endfor %}
 
-            {% for article in articles %}
-                <div class="col-md-6">
-                    <article>
-                        <header>
-                            <h2><a href="{{ path('article_view', { id: article.id } ) }}">{{ article.title }}</a></h2>
-                        </header>
-                        <a href="{{ path('article_view', { id: article.id } ) }}">
-                            <img src="{{ asset('uploads/images/articles/' ~ article.image)}}" width="400px" height="200px">
-                        </a> <br />
+        {% for article in articles %}
+            <div class="col-md-6">
+                <article>
+                    <header>
+                        <h2>{{ article.title }}</h2>
+                    </header>
+                    <a href="{{ path('article_view', { id: article.id } ) }}">
+                    <img src="{{ asset('uploads/images/articles/' ~ article.image)}}" width="400px" height="200px">
+                    </a> <br />
 
-                        <p>
-                            {{ article.summary }}
-                        </p>
-                        <small>Брой разглеждания: {{ article.viewCount }}</small><br>
-                        <small>Дата на публикуване: {{ article.dateAdded|date("Y-m-d H:i:s") }}</small><br>
+                    <p>
+                        {{ article.summary }}
+                    </p>
+                    <small>Брой разглеждания: {{ article.viewCount }}</small><br>
+                    <small>Дата на публикуване: {{ article.dateAdded|date("Y-m-d H:i:s") }}</small><br>
 
-                        <small class="author">
-                            {{ article.author.fullName }} | <a href="{{ path('user_message', { id: article.author.id } ) }}">
-                                <img alt="None" class="rounded-circle"
-                                     src=" {{ asset('uploads/images/users/'  ~ article.author.image ) }}"
-                                     width="30px" height="10px" />
-                            </a>
-                        </small><br/>
+                    <small class="author">
+                        {{ article.author.fullName }} | <a href="{{ path('user_message', { id: article.author.id } ) }}">
+                            <img alt="None" class="rounded-circle"
+                                 src=" {{ asset('uploads/images/users/'  ~ article.author.image ) }}"
+                                 width="30px" height="10px" />
+                        </a><br />
+                    </small>
 
-                        <footer>
-                            <div class="pull-left">
-                                <a class="btn btn-success btn-xs"
-                                   href="{{ path('article_view', {id: article.id}) }}">Прочети подробно &raquo;</a>
-                            </div>
-                        </footer><br /><br />
-                    </article>
-                </div>
-            {% endfor %}
-        </div>
+                    <footer>
+                        <div class="pull-left">
+                            <a class="btn btn-success btn-xs"
+                               href="{{ path('article_view', {id: article.id}) }}">Прочети подробно &raquo;</a>
+                        </div>
+                    </footer><br /><br />
+                </article>
+            </div>
+        {% endfor %}
+    </div>
     </div>
 
 {% endblock %}

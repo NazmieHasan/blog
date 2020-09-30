@@ -48,7 +48,7 @@ class MessageController extends Controller
         $form = $this->createForm(MessageType::class, $message);
         $form->handleRequest($request);
         $this->messageService->create($message, $id);
-        $this->addFlash("message", "Съобщението е изпратено успешно!");
+        $this->addFlash("message", "Message sent successfully!");
         return $this->redirectToRoute('user_message', [ 'id' => $id]);
     }
 
