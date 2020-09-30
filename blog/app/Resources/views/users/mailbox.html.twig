@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    <h3 style="color: #3be6c4">ВСИЧКИ ПОЛУЧЕНИ СЪОБЩЕНИЯ</h3> <hr style="width: 1000px" />
+
+    <table align="center" width="1000px">
+        <tr align="left">
+            <th>Изпратено от</th><th>Тема</th><th>Дата</th><th>Статус</th>
+        </tr>
+        {% for msg in messages %}
+        <tr align="left">
+            <td>{{ msg.sender.fullName }}</td>
+            <td><a href="{{ path('user_mailbox_message', { id: msg.id}) }}">{{ msg.about }}</a></td>
+            <td> {{ msg.dateAdded|date("Y-m-d H:i:s") }}</td>
+            <td>{% if not msg.isSeen %}<span style="color: red">Непрочетено</span>{% else %}<span style="color: #18bc9c">Прочетено</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+{% endblock %}
+
+
+
+

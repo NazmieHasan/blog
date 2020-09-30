@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    <a class="btn btn-success" href="{{ path('admin_users')}}">Всички потребители</a>
+
+    <h1>Всички обяви:</h1>
+
+    {% for article in articles %}
+        <p><a href="#">{{ article.title}}</a></p>
+    {% endfor %}
+
+{% endblock %}
+

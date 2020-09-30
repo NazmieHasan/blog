@@ -1,0 +1,95 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+    {% for msg in app.session.flashbag.get('message')  %}
+        <div class="alert alert-success" id="info">
+            {{ msg }}
+        </div>
+    {% endfor %}
+
+    <div class="container body-content">
+        <div class="row">
+
+            {% for msg in app.session.flashbag.get('info')  %}
+                <div class="alert alert-success" id="info">
+                    {{ msg }}
+                </div>
+            {% endfor %}
+
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <h2>{{ article.title }}</h2>
+                    </header>
+                    <a href="{{ path('article_view', { id: article.id } ) }}">
+                        <img src="{{ asset('uploads/images/articles/' ~ article.image)}}" width="400px" height="200px" />
+                    </a>
+
+                    <p>
+                        {{ article.content }}
+                    </p>
+
+                    <small class="author">
+                        {{ article.author.fullName }}
+                    </small>
+
+                    <footer>
+                        <div class="pull-right">
+                            {% if app.getUser() and ( app.getUser().isAuthor(article) or app.getUser().isAdmin() ) %}
+                                <a class="btn btn-success btn-xs" href="{{ path('article_edit', {id: article.id}) }}">Редактирай</a>
+                                <a class="btn btn-danger btn-xs" href="{{ path('article_delete', {id: article.id}) }}">Изтрий</a>
+                            {% endif %}
+                            <a class="btn btn-default btn-xs" href="{{ path('blog_index') }}">Назад &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+
+                {% if app.getUser() %}
+                    <br />
+                    <a class="btn btn-success btn-sm" id="Add">Коментирай</a>
+                    <div id="comment"></div>
+                {% endif %}
+
+                <br />
+                <hr />
+
+                {% for comment in comments %}
+                    <p>{{ comment.content }}</p>
+                    <br />
+                    {{ comment.author.fullName }} |
+                    <a href="{{ path('user_message', { id: comment.author.id } ) }}">
+                    <img alt="None" class="rounded-circle" src=" {{ asset('uploads/images/users/'  ~ comment.author.image ) }}" width="30px" height="10px" />
+                    </a>
+                    <br />
+                    <small>{{ comment.dateAdded|date("Y-m-d H:i:s") }}</small>
+                    <hr />
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#Add').click(function () {
+            $('#comment').empty();
+            let commentForm =
+                `
+                <form method="post" action="{{ path('comment_create', { id: article.id}) }}">
+                    <div class="form-group">
+                        <div class="col-sm-6">
+                        <textarea class="form-control" rows="6" id="article_content" name="comment[content]"></textarea>
+                        <br />
+                        <input type="submit" value="Изпрати" class="btn btn-success btn-sm" />
+                        </div>
+                    </div>
+                </form>
+                `;
+
+            $('#comment').append(commentForm);
+            $('#comment').toggle();
+        })
+    </script>
+
+{% endblock %}
+

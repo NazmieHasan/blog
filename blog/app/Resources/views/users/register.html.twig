@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'register' %}
+
+{% block main %}
+
+    {% for msg in app.session.flashbag.get('errors')  %}
+        <div class="alert alert-danger">
+            {{ msg }}
+            <button type="button" class="close" data-dissmis="alert" aria-label="Close">
+                <span aria-hidden="true">x</span>
+            </button>
+        </div>
+    {% endfor %}
+
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal" action="{{ path('user_register') }}" method="post">
+                <fieldset>
+                    <legend>Регистрация</legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_email">Имейл</label>
+                        <div class="col-sm-4 ">
+                            <input class="form-control" id="user_email"  placeholder="Въведи имейл!" value="{{ user.email|default(null) }}"  name="user[email]" required type="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_fullName">Име</label>
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="user_fullName" placeholder="Въведи име!"  value="{{ user.fullName|default(null) }}" name="user[fullName]" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_password_first">Парола</label>
+                        <div class="col-sm-4">
+                            <input type="password" class="form-control" id="user_password_first" placeholder="Въведи парола!" name="user[password][first]" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="user_password_second">Повтори паролата</label>
+                        <div class="col-sm-4">
+                            <input type="password" class="form-control" id="user_password_second" placeholder="Повтори паролата!" name="user[password][second]" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <button type="submit" class="btn btn-primary">Изпрати</button>
+                        </div>
+                    </div>
+
+                    {{  form_row(form._token) }}
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}
