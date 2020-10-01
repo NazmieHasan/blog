@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3e98cf27-a58a-4ddf-9f54-4c9e3044e136" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/articles.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/users.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +123,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Controller/Admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,6 +133,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\blog\src\AppBundle\Controller\Admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Server" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/console" scriptParameters="server:run">
@@ -126,11 +154,24 @@
       <updated>1601448678979</updated>
       <workItem from="1601448680089" duration="6384000" />
       <workItem from="1601459211810" duration="1961000" />
+      <workItem from="1601463428409" duration="206000" />
+      <workItem from="1601580730677" duration="3836000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="17" key="#CLI_Interpreters" timestamp="1601449128151">
@@ -145,10 +186,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601449139120" />
-    <state x="600" y="117" key="FileChooserDialogImpl" timestamp="1601449076165">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601584504305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="600" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601449076165" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601584504305" />
+    <state x="413" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601583742434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601583742434" />
+    <state x="600" y="117" key="FileChooserDialogImpl" timestamp="1601463634442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="600" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601463634442" />
     <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1601455751324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -165,9 +214,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601455751324" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1601459266385">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1601581001243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1601459266385" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1601581001243" />
   </component>
 </project>
