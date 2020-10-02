@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e98cf27-a58a-4ddf-9f54-4c9e3044e136" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a934155-5337-44d3-98c6-bd0c2054084a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/articles.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/users.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/categories/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/admin/categories/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CategoryController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +150,8 @@
       <workItem from="1601459211810" duration="1961000" />
       <workItem from="1601463428409" duration="206000" />
       <workItem from="1601580730677" duration="3836000" />
+      <workItem from="1601667332615" duration="138000" />
+      <workItem from="1601667550888" duration="3921000" />
     </task>
     <servers />
   </component>
@@ -172,6 +168,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="17" key="#CLI_Interpreters" timestamp="1601449128151">
@@ -218,5 +215,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1601581001243" />
+    <state x="460" y="85" key="NewPhpClassDialog" timestamp="1601669770305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="85" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1601669770305" />
   </component>
 </project>
