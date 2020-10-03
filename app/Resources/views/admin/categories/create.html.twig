@@ -4,9 +4,9 @@
     <div class="well">
         <form class="form-horizontal" action="{{ path('admin_categories_create') }}" method="POST">
             <fieldset>
-                <legend>New Category</legend>
+                <legend>Създай категория</legend>
                 <div class="form-group">
-                    <label class="col-sm-4 control-label" for="article_title">Category Name</label>
+                    <label class="col-sm-4 control-label" for="article_title">Име на категорията</label>
                     <div class="col-sm-4 ">
                         <input type="text" class="form-control" id="article_title" placeholder="Category Name" name="category[name]">
                     </div>
@@ -14,8 +14,8 @@
                 {{ form_row(form._token) }}
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-4">
-                        <a class="btn btn-default" href="{{ path('admin_categories') }}">Cancel</a>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a class="btn btn-default" href="{{ path('admin_categories') }}">Отмени</a>
+                        <button type="submit" class="btn btn-primary">Изпрати</button>
                     </div>
                 </div>
             </fieldset>

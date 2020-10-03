@@ -2,15 +2,15 @@
 {% block main %}
     <div class="container body-content">
         <div class="well">
-            <h2>All Users</h2>
+            <h2>Всички потребители</h2>
             <div class="row">
                 <table class="table table-striped table-hover ">
                     <thead>
                     <tr>
                         <th>#</th>
-                        <th>Full Name</th>
-                        <th>Email</th>
-                        <th>Actions</th>
+                        <th>Име</th>
+                        <th>Имейл</th>
+                        <th>Действия</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -21,8 +21,8 @@
                         <td>{{ user.fullName }}</td>
                         <td>{{ user.email }}</td>
                         <td>
-                            <a href="#">Edit</a>
-                            <a href="#">Delete</a>
+                            <a href="#">Редактирай</a>
+                            <a href="#">Изтрий</a>
                         </td>
                     </tr>
                     {% endfor %}

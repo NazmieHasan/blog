@@ -42,7 +42,7 @@ class Category
         $this->articles = new ArrayCollection();
     }
 
-    function __toString()
+    public function __toString()
     {
         return $this->getName();
     }

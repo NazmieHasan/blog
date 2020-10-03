@@ -200,10 +200,10 @@ class Article
     public function setSummary()
     {
         $this->summary = substr(
-            $this->getContent(),
-            0,
-            strlen($this->getContent()) / 2
-        ) . "...";
+                $this->getContent(),
+                0,
+                strlen($this->getContent()) / 2
+            ) . "...";
     }
 
     /**
@@ -294,7 +294,7 @@ class Article
     /**
      * @return Category
      */
-    public function getCategory(): Category
+    public function getCategory()
     {
         return $this->category;
     }
@@ -309,4 +309,3 @@ class Article
 
 
 }
-
