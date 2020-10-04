@@ -4,7 +4,6 @@ namespace AppBundle\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\DependencyInjection\Tests\A;
 
 /**
  * Category
@@ -85,7 +84,7 @@ class Category
     /**
      * @return ArrayCollection
      */
-    public function getArticles(): ArrayCollection
+    public function getArticles()
     {
         return $this->articles;
     }

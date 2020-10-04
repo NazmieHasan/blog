@@ -21,22 +21,67 @@
   <component name="ChangeListManager">
     <list default="true" id="3e98cf27-a58a-4ddf-9f54-4c9e3044e136" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/categories/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/admin/categories/create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/categories/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/admin/categories/list.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/users/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/admin/users/list.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/delete.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/delete.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/myArticles.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/myArticles.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/articles/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CategoryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/01e5c18f1d3fbdb549caf9cbe36c1290.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/0342d0926c257a439c3a5ab7b92cc17d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/0991b07663f6a0f751d2d27f9e40879c.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/09fa494b1663a032416a3f8d7a829d9f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/0bcffa62d64808004981d0d8fa40f34d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/0be376e15328af215a9c0ad0c33ac46f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/0cd53695275630494af2e01dbbc04f99.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/0e7b266300fa29957c9187088c64addc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/1864c89bfbf72d9bfc051dcb76e04e34.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/186ae094c5e0df493d9356abf1f22033.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/1b21463770802ca99e063bd9154c0424.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/1e097c19f2b055c288098dc29c955544.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/20d24b579daf2658147eca68a85985f8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/21c69624466e68b5d8b5e057fc1d6aa7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/21e55898f66bb6439ace82e7fe764af8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/23aed0b2bd9e75b84fb5f1f051c2a16d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/28778a18ce186b54f054b3cc355f49b7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/2bb603bb12a84c1a53ce0d7583eb1dba.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/3606b75e932b84a69efd8ae8bdd83d9e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/36c5dd967c07ab1142679ca2e84922f2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/3b1e03597295526eac466a746d7bcfb8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/3b58318b64f8d38965726a7f6f9ce056.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/3ec2ca72a7e05e88f483ea817a89bb9f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/426963b61bf0a6cf32048d99cc91d274.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/4955fa51fcd2136a82aad58438071f2b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/4b2cb8d98a46892430318ad4d32247c9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/5cebe3000c1342d506ac654a84c7d3c6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/6480af0f2a391327a4c3be7521a17c21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/6c43bfbc05859dd11ef892f72cab7376.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/6d3ac59415be243132a264de29618060.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/6e4583ecb55e549c57c8a58245b9c1a5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/719473a773a6712eb03428d2499af30b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/7480dec2631420035cca969ada37981f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/74dd5924c34da621ea2aeade41200122.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/77c08b4d336eebe4c054ad89fda6f332.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/8a16eb1d7d91fa534a53652d552d73fc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/8d0df28b028c7b92157a10f4d96b736c.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/90f3c50332b77e15c0c59ac4fb4f9de1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/a173c404704e0bc689263d918e6b5302.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/a3bfea684dc59c050944132ae8f912fe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/a61f29f0b7671722bff028716b00f0dc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/a751d725939ddfd79e4df9a5bcaa2de9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/ad72820a6123e8830bcfa31f4a247ea8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/b712075c427c9e4bcc92f842b152f579.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/b8344926146eb8ec81bb7c06635389a1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/bd6390b7ce929b55118e299977359291.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/c167193cf35613124a5561a769b813ad.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/c2862361104216028a86e08cd9ef6120.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/c4e877ce265f44c36b16435791e7e85b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/ce22aeed1abb60ce5e24747a93af2d41.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/d7ae2a50bb496a302798e232f98e13bf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/d9e5ff2ee67c2c9386a721894a2c0718.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/dded4c2aa33f32273a1cb47bcb2671c6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/e5e2939e9ab6d81c1ab2292273ee92a7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/e616503abbfbb7ffb970098f121f5d42.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/ea15e92bd828639f6af422f286fdb8c5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/ea181b95f1a319194713f307e8eb9966.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/articles/f0c004d98d00e4ce79758b9e67b25bce.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +212,7 @@
       <workItem from="1601667332615" duration="138000" />
       <workItem from="1601667550888" duration="3921000" />
       <workItem from="1601717317338" duration="8518000" />
+      <workItem from="1601816763785" duration="4859000" />
     </task>
     <servers />
   </component>
