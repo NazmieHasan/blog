@@ -5,7 +5,6 @@ namespace AppBundle\Service\Comment;
 use AppBundle\Entity\Comment;
 use Symfony\Component\HttpFoundation\Request;
 
-
 interface CommentServiceInterface
 {
 
@@ -18,6 +17,5 @@ interface CommentServiceInterface
     public function getAllByArticleId(int $articleId);
 
     public function getOne() : ?Comment;
-
 
 }

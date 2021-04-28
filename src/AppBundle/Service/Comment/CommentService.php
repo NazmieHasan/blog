@@ -44,9 +44,7 @@ class CommentService implements CommentServiceInterface
     public function getOne(): ?Comment
     {
 
-
     }
-
 
     /**
      * @param Request $request
@@ -63,6 +61,5 @@ class CommentService implements CommentServiceInterface
 
             return $this->commmentRepository->insert($comment);
     }
-
 
 }

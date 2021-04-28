@@ -55,7 +55,7 @@ class CommentController extends Controller
         $form = $this->createForm(CommentType::class, $comment);
         $form->handleRequest($request);
 
-        $this->addFlash("message", "Коментарът е добавен успешно!");
+        $this->addFlash("message", "Коментарът е записан успешно!");
         $this->commentService->create($comment, $id);
 
             return $this->redirectToRoute("article_view", ['id' => $id]);
@@ -88,9 +88,5 @@ class CommentController extends Controller
         $form->handleRequest($request);
         return $comment;
     }
-
-
-
-
 
 }

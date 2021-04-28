@@ -23,7 +23,7 @@
                         <h2>{{ article.title }}</h2>
                     </header>
                     <a href="{{ path('article_view', { id: article.id } ) }}">
-                        <img src="{{ asset('uploads/images/articles/' ~ article.image)}}" width="550px" height="350px" />
+                        <img src="{{ asset('uploads/images/articles/' ~ article.image)}}" width="400px" height="200px" />
                     </a>
 
                     <p>
@@ -31,8 +31,11 @@
                     </p>
 
                     <small class="author">
-                        {{ article.author.fullName }}
-                    </small>
+                        {{ article.author.fullName }}|<a href="{{ path('user_message', { id: article.author.id } ) }}">
+                            <img alt="None" class="rounded-circle"
+                                 src=" {{ asset('uploads/images/users/'  ~ article.author.image ) }}"
+                                 width="30px" height="10px" /></a>
+                    </small><br />
 
                     <footer>
                         <div class="pull-right">
@@ -48,7 +51,7 @@
                 {% if app.getUser() %}
                     <br />
                     <a class="btn btn-success btn-sm" id="Add">Коментирай</a>
-                    <div id="comment"></div>
+                        <div id="comment"></div>
                 {% endif %}
 
                 <br />

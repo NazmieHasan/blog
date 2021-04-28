@@ -73,7 +73,7 @@ class ArticleController extends Controller
 
         $this->articleService->create($article);
 
-            $this->addFlash("info", "Обявата е създадена успешно!");
+            $this->addFlash("info", "Create article successfully!");
             return $this->redirectToRoute("blog_index");
     }
 
